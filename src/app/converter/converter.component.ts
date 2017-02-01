@@ -3,15 +3,8 @@ import * as _ from 'lodash';
 
 @Component({
   selector: 'app-converter',
-  template: `
-    <div class="row">
-      <label class="col-xs-5">Please enter a number (between 1 and 3999):</label>
-      <label class="col-xs-7">Result:</label>
-      <input [(ngModel)]="numeral.arabic" (ngModelChange)="romanize(numeral)" type="number" min="1" max="3999"
-          placeholder="Please enter a number between 1 and 3999" class="col-xs-5"/>
-      <span class="col-xs-7">{{numeral?.roman}}</span>
-    </div>
-  `,
+  templateUrl: './converter.component.html',
+  styleUrls: ['./converter.component.css']
 })
 
 export class ConverterComponent  {
