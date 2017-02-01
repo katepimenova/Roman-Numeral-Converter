@@ -6,6 +6,10 @@ We need a function that will convert an integer into Roman Numerals.
 
 https://katepimenova.github.io/roman-numeral-converter/
 
+## What is being used 
+
+[Angular 2](https://angular.io/), [Lodash](https://lodash.com/)
+
 ## Development server
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
