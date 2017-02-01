@@ -7,8 +7,8 @@ describe('roman-numeral-converter App', function() {
     page = new RomanNumeralConverterPage();
   });
 
-  it('should display message saying app works', () => {
+  it('should display message saying Roman Numeral Converter', () => {
     page.navigateTo();
-    expect(page.getParagraphText()).toEqual('app works!');
+    expect(page.getParagraphText()).toEqual('Roman Numeral Converter');
   });
 });
