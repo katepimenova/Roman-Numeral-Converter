@@ -1,10 +1,10 @@
 ##The Problem
 
-We need a function that will convert an integer into Roman Numerals.
+We need to create "Angular 2" based application that will convert an integer into Roman Numerals.
 
 ## Demo
 
-https://katepimenova.github.io/roman-numeral-converter/
+https://katepimenova.github.io/angular2-roman-numeral-converter/
 
 ## What is being used 
 
